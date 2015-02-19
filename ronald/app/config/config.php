@@ -2,11 +2,11 @@
 
 return new \Phalcon\Config(array(
     'database' => array(
-        'adapter'     => 'Mysql',
-        'host'        => 'localhost',
-        'username'    => 'root',
-        'password'    => '',
-        'dbname'      => 'test',
+        'adapter'     => 'Postgresql',
+        'host'        => 'ec2-50-19-236-178.compute-1.amazonaws.com',
+        'username'    => 'sondqoaztrzzex',
+        'password'    => 'MuxItCRvZ6nkIGjf48F8VjM4Ji',
+        'dbname'      => 'de51sulf40529r',
     ),
     'application' => array(
         'controllersDir' => __DIR__ . '/../../app/controllers/',
